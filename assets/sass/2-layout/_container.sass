@@ -1,0 +1,62 @@
+@use "../1-base/_variables"
+
+
+
+.container
+    background-color: variables.$white-color
+    width: 750px
+    height: 350px
+    margin: 100px auto
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    padding: 1.5rem
+    border-radius: 10px
+
+    .title
+        letter-spacing: 0.3rem
+
+        .underline
+            border-radius: 5px
+            width: 50%
+            height: 5px
+            margin: 3% 25% 
+            background-color: variables.$blue-detail
+
+    .review
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        .img-container
+            background-color: blue
+
+        .name
+            font-size: 1.5rem
+            color: variables.$blue-detail
+            margin-bottom: 1rem
+
+        .job
+            font-size: 0.8rem
+            margin-bottom: 1.5rem
+
+        .description
+            text-align: center
+            margin-bottom: 1.5rem
+
+    .button-container
+
+        .prev-btn
+            border: none
+            color: variables.$blue-detail
+            background-color: transparent
+            font-size: 1rem
+            cursor: pointer
+
+        .next-btn
+            border: none
+            color: variables.$blue-detail
+            background-color: transparent
+            font-size: 1rem
+            cursor: pointer

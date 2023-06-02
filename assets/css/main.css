@@ -1,3 +1,117 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
+html, body, div, span, object, iframe, figure, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  background-color: #B0E0E6;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.container {
+  background-color: #fff;
+  width: 750px;
+  height: 350px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.container .title {
+  letter-spacing: 0.3rem;
+}
+.container .title .underline {
+  border-radius: 5px;
+  width: 50%;
+  height: 5px;
+  margin: 3% 25%;
+  background-color: #089EC7;
+}
+.container .review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .review .img-container {
+  background-color: blue;
+}
+.container .review .name {
+  font-size: 1.5rem;
+  color: #089EC7;
+  margin-bottom: 1rem;
+}
+.container .review .job {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+.container .review .description {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.container .button-container .prev-btn {
+  border: none;
+  color: #089EC7;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.container .button-container .next-btn {
+  border: none;
+  color: #089EC7;
+  background-color: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=main.css.map */
